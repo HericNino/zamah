@@ -1,0 +1,38 @@
+{
+  "name": "zamah",
+  "version": "0.1.0",
+  "description": "A real-time 2D physics engine written from scratch in TypeScript: rigid bodies, XPBD cloth and soft bodies, position-based fluid, and a browser sandbox.",
+  "keywords": [
+    "physics-engine",
+    "rigid-body",
+    "xpbd",
+    "position-based-fluids",
+    "collision-detection",
+    "simulation",
+    "typescript",
+    "deterministic"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "Nino Herić",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "node bench/run.ts",
+    "golden": "node bench/golden.ts",
+    "cross-engine": "node bench/cross-engine.ts"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}
