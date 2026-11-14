@@ -12,6 +12,11 @@
     "typescript",
     "deterministic"
   ],
+  "homepage": "https://hericnino.github.io/zamah/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HericNino/zamah.git"
+  },
   "type": "module",
   "license": "MIT",
   "author": "Nino Herić",
